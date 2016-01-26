@@ -1,0 +1,2 @@
+- Barnhurst, K. G., & Nerone, J. C. (2001). The form of news: A history. New York: Guilford Press. 
+- Fry, T. (2012). Becoming human by design. London: Berg.
