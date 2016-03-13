@@ -15,10 +15,20 @@ http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=1050547&pattern=fo
 ####Urbanization of the North
 ######Could include mobility and migration, in/out flows 
 
+2006 Aboriginal Population Profile (*ARCHIVED)
+http://www12.statcan.ca/census-recensement/2006/dp-pd/prof/92-594/details/page.cfm?Lang=E&Tab=1&Geo1=PR&Code1=62&Geo2=CSD&Code2=6001009&Data=Count&SearchText=Whitehorse&SearchType=Begins&SearchPR=01&B1=Mobility%20and%20migration&Custom=
+
 ####Traditional & imported food systems
 ######Could include proportion of diet from traditional versus market food, transportation issues, historic food costs
 
-####Monentary/physical food availability
-
 ####Implications of food insecurity (health, community)
 ######Could include healthy weight (BMI), obesity, cardiovascular disease
+
+Health indicator profile, annual estimates, by age group and sex
+http://www5.statcan.gc.ca/cansim/a05?lang=eng&id=1050501
+
+Body mass index (BMI), by sex, household population aged 18 and over
+http://www5.statcan.gc.ca/cansim/a05?lang=eng&id=1054009
+
+Fruit and vegetable consumption, by age group and sex, household population aged 12 and over
+http://www5.statcan.gc.ca/cansim/a05?lang=eng&id=1050449
