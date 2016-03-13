@@ -21,6 +21,9 @@ http://www12.statcan.ca/census-recensement/2006/dp-pd/prof/92-594/details/page.c
 ####Traditional & imported food systems
 ######Could include proportion of diet from traditional versus market food, transportation issues, historic food costs
 
+Consumer Price Index, annual
+http://www5.statcan.gc.ca/cansim/a47
+
 ####Implications of food insecurity (health, community)
 ######Could include healthy weight (BMI), obesity, cardiovascular disease
 
