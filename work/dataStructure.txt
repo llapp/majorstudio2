@@ -1,0 +1,124 @@
+{
+	"territories": [{
+		"name": "North West Territories"
+		"data: {
+			"years": [{
+				"year": "2005"
+				"ageGroups": [{
+					"total": {
+						"gender": [{
+							"both": {
+								"numberFoodSecure": "1000"
+								"numberModFoodInsecure": "1000"
+								"numberSevereFoodInsecure": "1000"
+								"diabetes": "1000"
+								"highBP": "1000"
+								"COPD": "1000"
+								"fruitVegConsumptionOver5TimesDaily": "1000"
+								"fruitVegConsumptionLess5TimesDaily": "1000"
+								"fruitVegConsumptionNotStated": "500"
+								"senseBelonging": "1000"
+								"perceivedHealthGoodExc": "1000"
+								"perceivedHealthPoorFair": "1000"
+							}}, {
+							"male": {
+								"numberFoodSecure": "1000"
+								"numberModFoodInsecure": "1000"
+								"numberSevereFoodInsecure": "1000"
+							}}, {
+							"female": {
+								"numberFoodSecure": "1000"
+								"numberModFoodInsecure": "1000"
+								"numberSevereFoodInsecure": "1000"
+							}}]
+					}
+
+				}, {
+					"12to19": {
+						"gender": [{
+							"both": {
+								"numberFoodSecure": "1000"
+								"numberModFoodInsecure": "1000"
+								"numberSevereFoodInsecure": "1000"
+							}}, {
+							"male": {
+								"numberFoodSecure": "1000"
+								"numberModFoodInsecure": "1000"
+								"numberSevereFoodInsecure": "1000"
+							}}, {
+							"female": {
+								"numberFoodSecure": "1000"
+								"numberModFoodInsecure": "1000"
+								"numberSevereFoodInsecure": "1000"
+							}}]
+					}
+				}]
+				"livingArrangements": [{
+					"total": {
+						"foodSecure": {
+							"households": "1000"
+							"adults": "1000"
+							"children": "1000"
+						}
+						"foodInsecureModerate": {
+							"households": "1000"
+							"adults": "1000"
+							"children": "1000"
+						}
+						"foodInsecureSevere": {
+							"households": "1000"
+							"adults": "1000"
+							"children": "1000"
+						}
+					}
+				}, {
+					"unnattachedIndLivingAlone": {
+						"foodSecure": {
+							"households": "1000"
+							"adults": "1000"
+						}
+						"foodInsecureModerate": {
+							"households": "1000"
+							"adults": "1000"
+						}
+						"foodInsecureSevere": {
+							"households": "1000"
+							"adults": "1000"
+						}
+					}
+					}]
+				"BMI": {
+					"gender": [{
+							"both": {
+								"underweight": "1000"
+								"normalWeight": "1000"
+								"overweight": "1000"
+								"obese": "1000"
+								"notStated": "1000"
+							}}, {
+							"male": {
+								"underweight": "1000"
+								"normalWeight": "1000"
+								"overweight": "1000"
+								"obese": "1000"
+								"notStated": "1000"
+							}}, {
+							"female": {
+								"underweight": "1000"
+								"normalWeight": "1000"
+								"overweight": "1000"
+								"obese": "1000"
+								"notStated": "1000"
+							}}]
+				}
+				"consumerPriceIndex": {
+				...
+				}
+			}]
+
+			}
+		}, {
+		"name": "Yukon"
+		}
+	]
+}
