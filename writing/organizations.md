@@ -13,7 +13,7 @@ http://proof.utoronto.ca/
 #####Nutrition North Canada
 http://www.nutritionnorthcanada.gc.ca/eng/1415385762263/1415385790537
 - replaced the Food Mail Program initiative, which was in place since the 1960s
-- Northern Food Retail Data Collection & Analysis by Enrg Research Group http://www.nutritionnorthcanada.gc.ca/eng/1424364469057/1424364505951
+- Northern Food Retail Data Collection & Analysis by Enrg Research Group: report on "northern Canadian grocery retail system and the environment" http://www.nutritionnorthcanada.gc.ca/eng/1424364469057/1424364505951
 - A subsidy program run by the Government of Canada as part of the Northern Strategy launched in April of 2011
 - provides full or partial subsidies for eligible food products to eligible communities 
 - How it works: http://www.nutritionnorthcanada.gc.ca/eng/1415538638170/1415538670874
@@ -28,7 +28,7 @@ http://www.nunavutfoodsecurity.ca/
 http://www.nftinwt.com/
 - "The Northern Farm Training Institute (NFTI) is an experiential school aiming to empower northerners, strengthen our communities and create sustainability through local food production. We focus on economical, natural, integrated holistic food production systems."
 
-####Aboriginal Affairs and Northern Development Canada
+#####Aboriginal Affairs and Northern Development Canada
 https://www.aadnc-aandc.gc.ca/eng/1100100010002/1100100010021
 - Since 1991 has run the Northern Contaminants Program which provides knowledge for communities dependent on country food in order to facilitate safe country food consumption
 
