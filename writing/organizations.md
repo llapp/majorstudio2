@@ -6,6 +6,8 @@ http://www.hc-sc.gc.ca/fn-an/surveill/nutrition/commun/index-eng.php
 - comprised of two survey types: annual component on general health, and focused survey on specific health topics
 - Definitions of health indicators: http://www.hc-sc.gc.ca/fn-an/surveill/atlas/map-carte/index-eng.php#hfs
 - Household Food Security Survey Module, included since 2004 http://www.hc-sc.gc.ca/fn-an/surveill/nutrition/commun/insecurit/hfssm-mesam-eng.php
+- Household food insecurity by province and territory, 2009-2010 http://www.hc-sc.gc.ca/fn-an/surveill/nutrition/commun/insecurit/prov_ter-eng.php
+- Household food insecurity by province and territory, 2005 http://www.hc-sc.gc.ca/fn-an/surveill/nutrition/commun/insecurit/prov-ter-2005-eng.php
 
 #####PROOF Research to identify policy options to reduce food insecurity 
 http://proof.utoronto.ca/
