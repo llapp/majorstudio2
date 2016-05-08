@@ -234,7 +234,7 @@ html {
       display: inline;
       text-align: left;
       margin-top: 20%;
-      font-size: 56pt;
+      font-size: 48pt;
       font-family: 'Lora', serif;
       font-weight: bold;
       letter-spacing: 0.05px;
@@ -244,11 +244,13 @@ html {
       text-align: left;
       padding: 8%, 8%, 0%, 8%;
       padding-left: 8%;
-      font-size: 18px;
+      font-size: 11px;
+      text-transform: uppercase;
       display: inline;
       color: white;
       width: 100%;
-      line-height: 160%;
+      letter-spacing: 0.75px;
+      line-height: 48pt;
     }
     .main section .page_container .btns {
       clear: both;
@@ -278,19 +280,22 @@ html {
       text-align: left;
       display: block;
       width: 100%;
+      padding-top: 5%;
       padding-left: 8%;
       padding-right: 62%;
       font-size: 18pt;
       font-family: 'Lora', serif;
       font-weight: bold;
+      line-height: 24pt;
       letter-spacing: 0.05px;
       color: rgba(5, 56, 92, 1);
     }
     .main section.page2 h2 {
       text-align: left;
       display: inline;
-      width: 30%;
+      width: 37%;
       padding-left: 8%;
+      padding-bottom: 0;
       font-size: 10pt;
       font-family: 'Lora', serif;
       line-height: 16pt;
@@ -321,19 +326,20 @@ html {
       text-align: left;
       display: block;
       width: 100%;
+      padding-top: 5%;
       padding-left: 8%;
       padding-right: 72%;
       font-size: 16pt;
-      line-height: 22pt;
       font-family: 'Lora', serif;
       font-weight: bold;
+      line-height: 22pt;
       letter-spacing: 0.05px;
       color: rgba(5, 56, 92, 1);
     }
     .main section.page3 sup {
       vertical-align: top;
       position: relative;
-      top: -0.4em;
+      top: 0.6em;
     }
     .main section.page3 h2 {
       color: rgba(100,0,0,0.85);
@@ -342,6 +348,16 @@ html {
       padding: 2% 8% 0% 8%;
       line-height: 160%;
       font-weight: 100;
+    }
+    .main section.page3 h6 {
+      text-align: right;
+      position: absolute;
+      top: 8%;
+      right: 8%;
+      font-size: 6pt;
+      font-family:'Helvetica', sans-serif;
+      line-height: 12pt;
+      color: rgba(5, 56, 92, 0.6);
     }
     .main section.page3 img {
       position: absolute;
@@ -354,6 +370,7 @@ html {
     }
     .main section.page4 img {
       position: absolute;
+      /*top: 0;*/
       left: 0;
       width: 100%;
       height: auto;
@@ -377,8 +394,72 @@ html {
       height: auto;
     }
     .main section.page7 {
-      background: rgba(255,255,255,1);
+      background: rgba(266, 211, 203, 0.2);
       /*background:url(images/nunavut.png) no-repeat 156px -150px ;*/
+    }
+    .main section.page7 h1 {
+      text-align: left;
+      display: block;
+      width: 100%;
+      padding-top: 5%;
+      padding-left: 8%;
+      padding-right: 72%;
+      font-size: 18pt;
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      line-height: 24pt;
+      letter-spacing: 0.05px;
+      color: rgba(5, 56, 92, 1);
+    }
+    .main section.page7 h2 {
+      text-align: left;
+      display: inline;
+      width: 30%;
+      padding-left: 8%;
+      font-size: 10pt;
+      font-family: 'Lora', serif;
+      line-height: 16pt;
+      /*font-weight: bold;*/
+      /*letter-spacing: 0.05px;*/
+      color: rgba(5, 56, 92, 1);
+    }
+    .main section.page7 span {
+      display: inline-block;
+      /*text-align: center;*/
+      /*clear: both;*/
+      /*width: 50px;*/
+      /*margin-bottom: -50px;*/
+      margin-top: 10%;
+      padding-right: 3%;
+      font-family: 'Helvetica', sans-serif;
+      line-height: 14pt;
+      width: 4%;
+      height: 16pt;
+      font-weight: bold;
+      /*letter-spacing: 0.05px;*/
+      color: rgba(5, 56, 92, 1);
+    }
+    .main section.page7 span:hover {
+      color: rgba(5, 56, 92, 0.5);
+    }
+    .main section.page7 a {
+      font-family: 'Helvetica', sans-serif;
+      line-height: 14pt;
+      width: 4%;
+      height: 16pt;
+      font-weight: bold;
+      /*letter-spacing: 0.05px;*/
+      color: rgba(5, 56, 92, 1);
+    }
+    .main section.page7 a:hover {
+      color: rgba(5, 56, 92, 0.5);
+    }
+   .main section.page7 img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 65%;
+      height: auto;
     }
 
     body.disabled-onepage-scroll .onepage-wrapper  section {

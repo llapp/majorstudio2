@@ -24,6 +24,8 @@
   <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='css/default.css' rel='stylesheet' type='text/css'>
   <link href='css/style.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <!-- Favicon
   ––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -56,6 +58,8 @@
 	      <div class="page_container">
           <img src="images/map.png">
           <h1>Located mainly above the 60<sup>th</sup> parallel; Northern Canada is a vast, sparsely populated landscape. Extreme environmental conditions and great distances between communities make transportation and access difficult.</h1>
+          <h6>Map attributed to Free Vector Maps
+</h6>
           <div class="btns">
 
   	      </div>
@@ -75,7 +79,7 @@
 
        <section class="page5">
         <div class="page_container">
-          <img src="images/nunavut.png">
+          <img src="images/nwt.png">
           <div class="btns">
           </div>
         </div>
@@ -83,7 +87,7 @@
 
       <section class="page6">
         <div class="page_container">
-          <img src="images/nunavut.png">
+          <img src="images/yukon.png">
           <div class="btns">
           </div>
         </div>
@@ -91,11 +95,18 @@
 
       <section class="page7">
         <div class="page_container">
-          <h1>PAGE4</h1>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum congue faucibus. Duis luctus ex ultrices, tincidunt purus a, sodales lectus. Vivamus ultrices neque ut turpis elementum, at porta lectus pretium. Nunc non tincidunt purus. Maecenas quis mollis enim. Suspendisse condimentum euismod ipsum sed consequat. Sed sagittis nisi non pellentesque vestibulum.</h2>
-          <div class="btns">
-            <a class="reload btn" href="https://github.com/peachananr/purejs-onepage-scroll">Something</a>
-          </div>
+          <img src="images/legend.png">
+         <h1>How to read this visualization </h1>
+          <h2>The division by family type reveals the vulnerability within certain household constructs. The vertical split along each family type shows the change in food insecurity and income between 2007/08 and 2011/12. Rings representing each data point grow, shrink or remain constant between years and across family types. Data was sourced from Statistics Canada CANSIM Tables 105-0545 and 111-0015. <br/>
+            <span data-toggle="tooltip" data-placement="top" title="A census metropolitan area (CMA) or a census agglomeration (CA) is formed by one or more adjacent municipalities centred on a population centre (known as the core). A CMA must have a total population of at least 100,000 of which 50,000 or more must live in the core. A CA must have a core population of at least 10,000."><a href="http://www.statcan.gc.ca/pub/92-195-x/2011001/geo/cma-rmr/def-eng.htm" target="_blank">1</a></span> 
+            <span data-toggle="tooltip" data-placement="top" title="Data with a coefficient of variation (CV) greater than 33.3% were suppressed due to extreme sampling variability and are identified as follows: (F) too unreliable to be published.">2</span>
+            <span data-toggle="tooltip" data-placement="top" title="Family income is the sum of the incomes of all members of the family. Median is the middle number in a group of numbers. Where a median income, for example, is given as $26,000, it means that exactly half of the incomes reported are greater than or equal to $26,000, and that the other half is less than or equal to the median amount.">3</span>
+            <span data-toggle="tooltip" data-placement="top" title="Data for low income families are based on the Low Income Measure (LIM). The LIM is a fixed percentage (50%) of adjusted family income where adjusted indicates a consideration of family needs. The family size adjustment reflects the precept that family needs increase with family size. A family is considered to be low income when their income is below the LIM for their family type and size.">4</span>
+            <span data-toggle="tooltip" data-placement="top" title="Data sourced from CANSIM Table 105-0545 includes two-year combined data for the periods of 2007/08 and 2011/12. The two-year combined data are less current than annual estimates, but have higher precision (less variability. Income data sourced from Table 111-0015 was adjusted to reflect the two-year period. Income data for the Yukon and Northwest Territories for the 2007/08 period is based off of only 2008 numbers due to the start of data collection.">5</span>
+          </h2>
+          <!-- <div class="footnotes"> -->
+          <!-- <span data-toggle="tooltip" data-placement="bottom" title="A census metropolitan area (CMA) or a census agglomeration (CA) is formed by one or more adjacent municipalities centred on a population centre (known as the core). A CMA must have a total population of at least 100,000 of which 50,000 or more must live in the core. A CA must have a core population of at least 10,000. (http://www.statcan.gc.ca/pub/92-195-x/2011001/geo/cma-rmr/def-eng.htm)">1</span> -->
+          <!-- </div> -->
         </div>
       </section>
       
@@ -107,6 +118,7 @@
    <script type="text/javascript" src="js/jquery-min.js"></script>
    <script type="text/javascript" src="js/main.js"></script>
    <script type="text/javascript" src="js/onepagescroll.js"></script>
+   <script type="text/javascript" src="js/tooltip.js"></script>
 
    <script>
    onePageScroll(".main", {
@@ -116,5 +128,10 @@
    });
     
   </script>
+  <script>
+    $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+    });
+</script>
 </body>
 </html>
