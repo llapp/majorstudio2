@@ -246,24 +246,37 @@ html {
       color: white;
       line-height: 64pt;
     }
+    .main section.page1 div.byline {
+      position: fixed;
+      bottom: 20%;
+      /*padding-bottom: 0%;*/
+      width: 60%;
+      margin-left: 8%;
+      float: left;    
+    }
     .main section.page1 p {
       text-align: left;
-      padding: 8%, 8%, 0%, 8%;
-      padding-left: 8%;
-      font-size: 11px;
+      /*padding: 8%, 8%, 0%, 8%;*/
+      /*padding-left: 8%;*/
+      font-size: 12px;
       text-transform: uppercase;
-      display: inline;
+      /*display: inline;*/
       color: white;
-      width: 100%;
+      /*width: 100%;*/
       letter-spacing: 0.75px;
       line-height: 48pt;
     }
     .main section.page1 h6 {
+      display: block;
+      float: right;
+      position: fixed;
+      width: 40%;
       text-align: right;
-      position: absolute;
+      /*position: absolute;*/
       bottom: 5%;
-      right: 8%;
-      font-size: 7pt;
+      right: 3%;
+      padding-left: 5%;
+      font-size: 6pt;
       font-family:'Helvetica', sans-serif;
       /*font-weight: bold;*/
       line-height: 12pt;
@@ -338,7 +351,7 @@ html {
       color: #FFF;
       }
     .main section.page3 {
-      background: rgba(266, 211, 203, 0.2);
+      background: rgba(266, 211, 203, 0);
     }
     .main section.page3 .page_container {
       overflow: hidden;
@@ -383,15 +396,67 @@ html {
       line-height: 12pt;
       color: rgba(5, 56, 92, 0.6);
     }
-    .main section.page3 img {
+/*    .main section.page3 img {
+      position: absolute;
+      margin-top: -2%;
+      right: 0;
+      width: 65%;
+      height: auto;
+    }*/
+    .main section.page3 svg {
       position: absolute;
       margin-top: -2%;
       right: 0;
       width: 65%;
       height: auto;
     }
+    .mapDot {
+      transform: scale(1);
+      transform-origin: center;
+    }
+    #igloolik:hover
+    {
+      transform: scale(1.9);
+      transform-origin: center;
+    }
+    #iqaluit:hover
+    {
+      transform: scale(1.9);
+      transform-origin: center;
+    }
+    #yellowknife:hover
+    {
+      transform: scale(1.9);
+      transform-origin: center;
+    }
+    #inuvik:hover
+    {
+      transform: scale(1.9);
+      transform-origin: center;
+    }
+    #whitehorse:hover
+    {
+      transform: scale(1.9);
+      transform-origin: center;
+    }
+    #oldCrow:hover
+    {
+      transform: scale(1.9);
+      transform-origin: center;
+    }
     .main section.page4 {
       background: rgba(255,255,255,1);
+    }
+    .main section.page4 p {
+      text-align: left;
+      position: absolute;
+      top: 8%;
+      left: 8%;
+      font-size: 12px;
+      width: 20%;
+      /*letter-spacing: 0.75px;*/
+      line-height: 16pt;
+      color: rgba(5, 56, 92, 1);
     }
     .main section.page4 img {
       position: absolute;
@@ -421,6 +486,13 @@ html {
       background: rgba(255,255,255,1);
     }
     .main section.page5 img {
+      position: absolute;
+      margin-top: -4%;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+    .main section.page5 svg {
       position: absolute;
       margin-top: -4%;
       left: 0;
