@@ -245,6 +245,18 @@ html {
       color: white;
       line-height: 64pt;
     }
+/*    .main section.page1 h2 {
+      display: inline;
+      text-align: left;
+      left: 8%;
+      margin-top: %;
+      font-size: 36pt;
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      letter-spacing: 0.05px;
+      color: white;
+      line-height: 64pt;
+    }*/
     .main section.page1 div.byline {
       position: fixed;
       bottom: 20%;
@@ -333,12 +345,44 @@ html {
       font-size: 10pt;
       font-family: 'Lora', serif;
       line-height: 16pt;
-      /*font-weight: bold;*/
-      /*letter-spacing: 0.05px;*/
       color: rgba(5, 56, 92, 1);
     }
-   .main section.page2 img {
+    /*.main section.page2 span.caption {
       position: absolute;
+      display: block;
+      right: 0;
+      margin-top: -2%;
+      right: 0;
+      width: 60%;
+    }
+    .main section.page2 p.captionTitle {
+      border-top: solid;
+      border-color: rgba(5, 56, 92, 1);
+      border-width: 1px;
+      text-align: right;
+      top: 7%;
+      right: 8%;
+      padding-top: 1%;
+      padding-bottom: 20pt;
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 14pt;
+      color: rgba(5, 56, 92, 1);
+      font-family: 'DINPro-Medium', sans-serif;
+    }
+    .main section.page2 p {
+      float: right;
+      text-align: right;
+      top: 13%;
+      left: 8%;
+      font-size: 12px;
+      width: 20%;
+      line-height: 15pt;
+      color: rgba(5, 56, 92, 1);
+      font-family: 'DINPro', sans-serif;
+    }*/
+   .main section.page2 img {
+      position: fixed;
       margin-top: -2%;
       right: 0;
       width: 60%;
@@ -506,14 +550,14 @@ html {
     }
     .main section.page5 img {
       position: absolute;
-      margin-top: -4%;
+      margin-top: -5%;
       left: 0;
       width: 100%;
       height: auto;
     }
     .main section.page5 svg {
       position: absolute;
-      margin-top: -4%;
+      margin-top: -5%;
       left: 0;
       width: 100%;
       height: auto;
@@ -523,14 +567,14 @@ html {
     }
     .main section.page6 img {
       position: absolute;
-      margin-top: -4%;
+      margin-top: -5%;
       left: 0;
       width: 100%;
       height: auto;
     }
     .main section.page6 svg {
       position: absolute;
-      margin-top: -4%;
+      margin-top: -5%;
       left: 0;
       width: 100%;
       height: auto;
@@ -540,14 +584,14 @@ html {
     }
     .main section.page7 img {
       position: absolute;
-      margin-top: -4%;
+      margin-top: -5%;
       left: 0;
       width: 100%;
       height: auto;
     }
     .main section.page7 svg {
       position: absolute;
-      margin-top: -4%;
+      margin-top: -5%;
       left: 0;
       width: 100%;
       height: auto;
