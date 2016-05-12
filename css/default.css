@@ -235,7 +235,6 @@ html {
       background-position: center;
     }
     .main section.page1 h1 {
-      /*float: none;*/
       display: inline;
       text-align: left;
       margin-top: 10%;
@@ -249,20 +248,19 @@ html {
     .main section.page1 div.byline {
       position: fixed;
       bottom: 20%;
-      /*padding-bottom: 0%;*/
-      width: 60%;
+      width: 70%;
       margin-left: 8%;
       float: left;    
+      font-family: 'DINPro-Medium', sans-serif;
     }
     .main section.page1 p {
       text-align: left;
-      /*padding: 8%, 8%, 0%, 8%;*/
-      /*padding-left: 8%;*/
-      font-size: 12px;
+      font-size: 11px;
       text-transform: uppercase;
-      /*display: inline;*/
+      border-top: solid;
+      border-color: white;
+      border-width: 1px;
       color: white;
-      /*width: 100%;*/
       letter-spacing: 0.75px;
       line-height: 48pt;
     }
@@ -270,20 +268,20 @@ html {
       display: block;
       float: right;
       position: fixed;
-      width: 40%;
+      width: 30%;
       text-align: right;
       /*position: absolute;*/
       bottom: 5%;
       right: 3%;
       padding-left: 5%;
       font-size: 6pt;
-      font-family:'Helvetica', sans-serif;
+      font-family: 'DINPro', sans-serif;
       /*font-weight: bold;*/
-      line-height: 12pt;
+      line-height: 9pt;
       color: rgba(255,255,255,1);
     }
     .main section.page1 a {
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'DINPro', sans-serif;
       /*font-weight: bold;*/
       line-height: 12pt;
       color: rgba(255,255,255,1);
@@ -351,7 +349,7 @@ html {
       color: #FFF;
       }
     .main section.page3 {
-      background: rgba(266, 211, 203, 0);
+      background: rgba(266, 211, 203, 0.2);
     }
     .main section.page3 .page_container {
       overflow: hidden;
@@ -389,20 +387,20 @@ html {
     .main section.page3 h6 {
       text-align: right;
       position: absolute;
-      top: 8%;
-      right: 8%;
+      bottom: 5%;
+      right: 3%;
       font-size: 6pt;
-      font-family:'Helvetica', sans-serif;
+      font-family: 'DINPro', sans-serif;
       line-height: 12pt;
       color: rgba(5, 56, 92, 0.6);
     }
-/*    .main section.page3 img {
+    .main section.page3 img {
       position: absolute;
       margin-top: -2%;
       right: 0;
       width: 65%;
       height: auto;
-    }*/
+    }
     .main section.page3 svg {
       position: absolute;
       margin-top: -2%;
@@ -414,7 +412,7 @@ html {
       transform: scale(1);
       transform-origin: center;
     }
-    #igloolik:hover
+    #pang:hover
     {
       transform: scale(1.9);
       transform-origin: center;
@@ -447,16 +445,37 @@ html {
     .main section.page4 {
       background: rgba(255,255,255,1);
     }
-    .main section.page4 p {
+    .main section.page4 p.captionTitle {
+      border-top: solid;
+      border-color: rgba(5, 56, 92, 1);
+      border-width: 1px;
+      display: inline-block;
       text-align: left;
       position: absolute;
-      top: 8%;
+      top: 7%;
+      left: 8%;
+      padding-top: 1%;
+      padding-bottom: 20pt;
+      font-size: 14px;
+      width: 20%;
+      text-transform: uppercase;
+      /*letter-spacing: 0.75px;*/
+      line-height: 14pt;
+      color: rgba(5, 56, 92, 1);
+      font-family: 'DINPro-Medium', sans-serif;
+    }
+      .main section.page4 p {
+      float: left;
+      display: inline-block;
+      text-align: left;
+      position: absolute;
+      top: 13%;
       left: 8%;
       font-size: 12px;
       width: 20%;
-      /*letter-spacing: 0.75px;*/
-      line-height: 16pt;
+      line-height: 15pt;
       color: rgba(5, 56, 92, 1);
+      font-family: 'DINPro', sans-serif;
     }
     .main section.page4 img {
       position: absolute;
@@ -469,15 +488,15 @@ html {
       text-align: right;
       position: absolute;
       bottom: 5%;
-      right: 8%;
+      right: 3%;
       font-size: 8pt;
-      font-family:'Helvetica', sans-serif;
+      font-family: 'DINPro', sans-serif;
       font-weight: bold;
       line-height: 12pt;
       color: rgba(255,255,255,1);
     }
     .main section.page4 a {
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'DINPro', sans-serif;
       font-weight: bold;
       line-height: 12pt;
       color: rgba(255,255,255,1);
@@ -509,10 +528,24 @@ html {
       width: 100%;
       height: auto;
     }
+    .main section.page6 svg {
+      position: absolute;
+      margin-top: -4%;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
     .main section.page7 {
       background: rgba(255,255,255,1);
     }
     .main section.page7 img {
+      position: absolute;
+      margin-top: -4%;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+    .main section.page7 svg {
       position: absolute;
       margin-top: -4%;
       left: 0;
@@ -529,7 +562,7 @@ html {
       width: 100%;
       padding-top: 5%;
       padding-left: 8%;
-      padding-right: 72%;
+      padding-right: 67%;
       font-size: 18pt;
       font-family: 'Lora', serif;
       font-weight: bold;
@@ -540,22 +573,21 @@ html {
     .main section.page8 h2 {
       text-align: left;
       display: inline;
-      width: 30%;
+      width: 35%;
       padding-left: 8%;
       font-size: 10pt;
       font-family: 'Lora', serif;
       line-height: 16pt;
       color: rgba(5, 56, 92, 1);
     }
+      .main section.page8 p {
+      margin-bottom: 3%;
+    }
     .main section.page8 span {
       display: inline-block;
-      /*text-align: center;*/
-      /*clear: both;*/
-      /*width: 50px;*/
-      /*margin-bottom: -50px;*/
-      margin-top: 10%;
+      margin-top: 5%;
       padding-right: 3%;
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'DINPro', sans-serif;
       line-height: 14pt;
       width: 4%;
       height: 16pt;
@@ -568,7 +600,7 @@ html {
     }
     .main section.page8 .tooltip-inner {
       text-align: left;
-      font-family: "Helvetica", sans-serif;
+      font-family: 'DINPro', sans-serif;
       font-size: 9.5pt;
       line-height: 13pt;
       padding: 10px 15px 10px 15px;
@@ -578,7 +610,7 @@ html {
       bottom-border-color: rgb(5, 56, 92);
     }*/
     .main section.page8 a {
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'DINPro', sans-serif;
       line-height: 14pt;
       width: 4%;
       height: 16pt;
