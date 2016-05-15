@@ -245,18 +245,7 @@ html {
       color: white;
       line-height: 64pt;
     }
-/*    .main section.page1 h2 {
-      display: inline;
-      text-align: left;
-      left: 8%;
-      margin-top: %;
-      font-size: 36pt;
-      font-family: 'Lora', serif;
-      font-weight: bold;
-      letter-spacing: 0.05px;
-      color: white;
-      line-height: 64pt;
-    }*/
+
     .main section.page1 div.byline {
       position: fixed;
       bottom: 20%;
@@ -276,21 +265,28 @@ html {
       letter-spacing: 0.75px;
       line-height: 48pt;
     }
-    .main section.page1 h6 {
+    .main section.page1 div.creds {
       display: block;
       float: right;
       position: fixed;
       width: 30%;
       text-align: right;
-      /*position: absolute;*/
       bottom: 5%;
       right: 3%;
-      padding-left: 5%;
-      font-size: 6pt;
       font-family: 'DINPro', sans-serif;
-      /*font-weight: bold;*/
+      font-color: rgba(255,255,255,1);
+    }
+    .main section.page1 h5 {
+      display: inline;
+      font-size: 7pt;
       line-height: 9pt;
-      color: rgba(255,255,255,1);
+      font-weight: bold;
+    }
+    .main section.page1 h6 {
+      display: inline-block;
+      margin: 0;
+      font-size: 6pt;
+      line-height: 9pt;
     }
     .main section.page1 a {
       font-family: 'DINPro', sans-serif;
@@ -546,20 +542,85 @@ html {
       color: rgba(255,255,255,1);
     }
     .main section.page5 {
-      background: rgba(255,255,255,1);
+      background: rgba(266, 211, 203, 0.2);
+      /*background:url(images/nunavut.png) no-repeat 156px -150px ;*/
     }
-    .main section.page5 img {
-      position: absolute;
-      margin-top: -5%;
-      left: 0;
+    .main section.page5 h1 {
+      text-align: left;
+      display: block;
       width: 100%;
-      height: auto;
+      padding-top: 5%;
+      padding-left: 8%;
+      padding-right: 67%;
+      font-size: 18pt;
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      line-height: 24pt;
+      letter-spacing: 0.05px;
+      color: rgba(5, 56, 92, 1);
     }
-    .main section.page5 svg {
+    .main section.page5 h2 {
+      text-align: left;
+      display: inline;
+      width: 35%;
+      padding-left: 8%;
+      font-size: 10pt;
+      font-family: 'Lora', serif;
+      line-height: 16pt;
+      color: rgba(5, 56, 92, 1);
+    }
+      .main section.page5 p {
+      margin-bottom: 3%;
+    }
+    .main section.page5 span {
+      display: inline-block;
+      margin-top: 5%;
+      padding-right: 3%;
+      font-family: 'DINPro', sans-serif;
+      line-height: 14pt;
+      width: 4%;
+      height: 16pt;
+      font-weight: bold;
+      /*letter-spacing: 0.05px;*/
+      color: rgba(5, 56, 92, 1);
+    }
+    .main section.page5 span:hover {
+      color: rgba(5, 56, 92, 0.5);
+    }
+    .main section.page5 .tooltip-inner {
+      text-align: left;
+      font-family: 'DINPro', sans-serif;
+      font-size: 9.5pt;
+      line-height: 13pt;
+      padding: 10px 15px 10px 15px;
+      background-color: rgb(5, 56, 92); 
+    }
+    /*.main section.page5 .tooltip-arrow {
+      bottom-border-color: rgb(5, 56, 92);
+    }*/
+    .main section.page5 a {
+      font-family: 'DINPro', sans-serif;
+      line-height: 14pt;
+      width: 4%;
+      height: 16pt;
+      font-weight: bold;
+      /*letter-spacing: 0.05px;*/
+      color: rgba(5, 56, 92, 1);
+    }
+    .main section.page5 a.cansim {
+      font-size: 10pt;
+      font-family: 'Lora', serif;
+      line-height: 16pt;
+      color: rgba(5, 56, 92, 1);
+    }
+    .main section.page5 a:hover {
+      color: rgba(5, 56, 92, 0.5);
+    }
+   .main section.page5 img {
       position: absolute;
-      margin-top: -5%;
-      left: 0;
-      width: 100%;
+      top: 0;
+      right: 0;
+      width: 65%;
       height: auto;
     }
     .main section.page6 {
@@ -597,85 +658,20 @@ html {
       height: auto;
     }
     .main section.page8 {
-      background: rgba(266, 211, 203, 0.2);
-      /*background:url(images/nunavut.png) no-repeat 156px -150px ;*/
+      background: rgba(255,255,255,1);
     }
-    .main section.page8 h1 {
-      text-align: left;
-      display: block;
-      width: 100%;
-      padding-top: 5%;
-      padding-left: 8%;
-      padding-right: 67%;
-      font-size: 18pt;
-      font-family: 'Lora', serif;
-      font-weight: bold;
-      line-height: 24pt;
-      letter-spacing: 0.05px;
-      color: rgba(5, 56, 92, 1);
-    }
-    .main section.page8 h2 {
-      text-align: left;
-      display: inline;
-      width: 35%;
-      padding-left: 8%;
-      font-size: 10pt;
-      font-family: 'Lora', serif;
-      line-height: 16pt;
-      color: rgba(5, 56, 92, 1);
-    }
-      .main section.page8 p {
-      margin-bottom: 3%;
-    }
-    .main section.page8 span {
-      display: inline-block;
-      margin-top: 5%;
-      padding-right: 3%;
-      font-family: 'DINPro', sans-serif;
-      line-height: 14pt;
-      width: 4%;
-      height: 16pt;
-      font-weight: bold;
-      /*letter-spacing: 0.05px;*/
-      color: rgba(5, 56, 92, 1);
-    }
-    .main section.page8 span:hover {
-      color: rgba(5, 56, 92, 0.5);
-    }
-    .main section.page8 .tooltip-inner {
-      text-align: left;
-      font-family: 'DINPro', sans-serif;
-      font-size: 9.5pt;
-      line-height: 13pt;
-      padding: 10px 15px 10px 15px;
-      background-color: rgb(5, 56, 92); 
-    }
-    /*.main section.page8 .tooltip-arrow {
-      bottom-border-color: rgb(5, 56, 92);
-    }*/
-    .main section.page8 a {
-      font-family: 'DINPro', sans-serif;
-      line-height: 14pt;
-      width: 4%;
-      height: 16pt;
-      font-weight: bold;
-      /*letter-spacing: 0.05px;*/
-      color: rgba(5, 56, 92, 1);
-    }
-    .main section.page8 a.cansim {
-      font-size: 10pt;
-      font-family: 'Lora', serif;
-      line-height: 16pt;
-      color: rgba(5, 56, 92, 1);
-    }
-    .main section.page8 a:hover {
-      color: rgba(5, 56, 92, 0.5);
-    }
-   .main section.page8 img {
+    .main section.page8 img {
       position: absolute;
-      top: 0;
-      right: 0;
-      width: 65%;
+      margin-top: -5%;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+    .main section.page8 svg {
+      position: absolute;
+      margin-top: -5%;
+      left: 0;
+      width: 100%;
       height: auto;
     }
 
