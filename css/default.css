@@ -674,6 +674,20 @@ html {
       width: 100%;
       height: auto;
     }
+    .main section.page9 {
+      background: rgba(255,255,255,1);
+    }
+    .main section.page9 h1 {
+      color: black;
+      font-family: Lora;
+    }
+    .main section.page9 img {
+      position: absolute;
+      margin-top: -5%;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
 
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;
