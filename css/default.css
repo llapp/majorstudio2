@@ -675,18 +675,41 @@ html {
       height: auto;
     }
     .main section.page9 {
-      background: rgba(255,255,255,1);
+      background: rgba(5, 56, 92, 0.3);
     }
     .main section.page9 h1 {
-      color: black;
-      font-family: Lora;
+      text-align: left;
+      display: block;
+      width: 100%;
+      padding-top: 5%;
+      padding-left: 8%;
+      padding-right: 62%;
+      font-size: 18pt;
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      line-height: 24pt;
+      letter-spacing: 0.05px;
+      color: rgba(5, 56, 92, 1);
+    }
+    .main section.page9 h2 {
+      text-align: left;
+      display: inline;
+      width: 37%;
+      padding-left: 8%;
+      padding-bottom: 0;
+      font-size: 10pt;
+      font-family: 'Lora', serif;
+      line-height: 16pt;
+      color: rgba(5, 56, 92, 1);
     }
     .main section.page9 img {
       position: absolute;
-      margin-top: -5%;
-      left: 0;
-      width: 100%;
-      height: auto;
+      /*margin-top: -5%;*/
+      right: 7%;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width: auto;
     }
 
     body.disabled-onepage-scroll .onepage-wrapper  section {
