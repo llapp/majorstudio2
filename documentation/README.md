@@ -2,6 +2,7 @@
 
 http://llapp.github.io/majorstudio2
 
+###Abstract
 Although Canada has no official measure of poverty, food
 insecurity—the financial and/or physical inability to access
 adequate food—is present in homes across the country, with a
@@ -28,8 +29,3 @@ Canadian food insecurity.
 
 Created by Linnea Lapp
 
-![Image 1](https://github.com/llapp/majorstudio2/tree/master/documentation/1.png "Image 1")
-![Image 2](https://github.com/llapp/majorstudio2/tree/master/documentation/2.png "Image 2")
-![Image 3](https://github.com/llapp/majorstudio2/tree/master/documentation/3.png "Image 3")
-![Image 4](https://github.com/llapp/majorstudio2/tree/master/documentation/4.png "Image 4")
-![Image 5](https://github.com/llapp/majorstudio2/tree/master/documentation/5.png "Image 5")
