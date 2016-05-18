@@ -1,4 +1,4 @@
-# Visualizing food insecurity in Canada's North
+# Patterns of vulnerability: Visualizing Northern Canadian food insecurity
 
 http://llapp.github.io/majorstudio2
 
@@ -25,5 +25,6 @@ down the complexity of the issue into an organized narrative
 in order to establish a foundational knowledge of Northern
 Canadian food insecurity.
 
-Treatment https://docs.google.com/a/newschool.edu/document/d/129GG_goO_wmPRy8VNyPqf9aPs9RwuFBRQ-cLQWybDOc/edit?usp=sharing
+Created by Linnea Lapp
 
+![Image 1](https://github.com/llapp/majorstudio2/tree/master/documentation/1.png "Image 1")
