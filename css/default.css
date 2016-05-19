@@ -303,22 +303,22 @@ html {
     .main section .page_container .btns a{
       text-align: center;
     }
-    .main section.page2 {
+    .main section.page4 {
       background:rgba(266, 211, 203, 0.2);
       color:#000;
     }
-/*    .main section.page2 > img {
+/*    .main section.page4 > img {
       position: absolute;
       top: -300px;
       left: 50%;
       margin-left: -1095px;
     }*/
-    .main section.page2 .page_container {
+    .main section.page4 .page_container {
       /*margin-top: 240px;*/
       overflow: hidden;
       z-index: 10;
     }
-    .main section.page2 h1 {
+    .main section.page4 h1 {
       text-align: left;
       display: block;
       width: 100%;
@@ -332,7 +332,7 @@ html {
       letter-spacing: 0.05px;
       color: rgba(5, 56, 92, 1);
     }
-    .main section.page2 h2 {
+    .main section.page4 h2 {
       text-align: left;
       display: inline;
       width: 37%;
@@ -343,7 +343,7 @@ html {
       line-height: 16pt;
       color: rgba(5, 56, 92, 1);
     }
-    /*.main section.page2 span.caption {
+    /*.main section.page4 span.caption {
       position: absolute;
       display: block;
       right: 0;
@@ -351,7 +351,7 @@ html {
       right: 0;
       width: 60%;
     }
-    .main section.page2 p.captionTitle {
+    .main section.page4 p.captionTitle {
       border-top: solid;
       border-color: rgba(5, 56, 92, 1);
       border-width: 1px;
@@ -366,7 +366,7 @@ html {
       color: rgba(5, 56, 92, 1);
       font-family: 'DINPro-Medium', sans-serif;
     }
-    .main section.page2 p {
+    .main section.page4 p {
       float: right;
       text-align: right;
       top: 13%;
@@ -377,7 +377,7 @@ html {
       color: rgba(5, 56, 92, 1);
       font-family: 'DINPro', sans-serif;
     }*/
-   .main section.page2 img {
+   .main section.page4 img {
       position: fixed;
       margin-top: -2%;
       right: 0;
@@ -388,16 +388,16 @@ html {
       background: rgba(0, 0, 0, 0.25);
       color: #FFF;
       }
-    .main section.page3 {
+    .main section.page2 {
       background: rgba(266, 211, 203, 0.2);
     }
-    .main section.page3 .page_container {
+    .main section.page2 .page_container {
       overflow: hidden;
       /*width: 500px;*/
       /*right: -285px;*/
       /*margin: 10px 0 0 0;*/
     }
-    .main section.page3 h1 {
+    .main section.page2 h1 {
       text-align: left;
       display: block;
       width: 100%;
@@ -411,12 +411,12 @@ html {
       letter-spacing: 0.05px;
       color: rgba(5, 56, 92, 1);
     }
-    .main section.page3 sup {
+    .main section.page2 sup {
       vertical-align: top;
       position: relative;
       top: 0.6em;
     }
-    .main section.page3 h2 {
+    .main section.page2 h2 {
       color: rgba(100,0,0,0.85);
       text-align: left;
       font-size: 12pt;
@@ -424,7 +424,7 @@ html {
       line-height: 160%;
       font-weight: 100;
     }
-    .main section.page3 h6 {
+    .main section.page2 h6 {
       text-align: right;
       position: absolute;
       bottom: 5%;
@@ -434,14 +434,14 @@ html {
       line-height: 12pt;
       color: rgba(5, 56, 92, 0.6);
     }
-    .main section.page3 img {
+    .main section.page2 img {
       position: absolute;
       margin-top: -2%;
       right: 0;
       width: 65%;
       height: auto;
     }
-    .main section.page3 svg {
+    .main section.page2 svg {
       position: absolute;
       margin-top: -2%;
       right: 0;
@@ -482,10 +482,10 @@ html {
       transform: scale(1.9);
       transform-origin: center;
     }
-    .main section.page4 {
+    .main section.page3 {
       background: rgba(255,255,255,1);
     }
-    .main section.page4 p.captionTitle {
+    .main section.page3 p.captionTitle {
       border-top: solid;
       border-color: rgba(5, 56, 92, 1);
       border-width: 1px;
@@ -504,7 +504,7 @@ html {
       color: rgba(5, 56, 92, 1);
       font-family: 'DINPro-Medium', sans-serif;
     }
-      .main section.page4 p {
+      .main section.page3 p {
       float: left;
       display: inline-block;
       text-align: left;
@@ -517,14 +517,14 @@ html {
       color: rgba(5, 56, 92, 1);
       font-family: 'DINPro', sans-serif;
     }
-    .main section.page4 img {
+    .main section.page3 img {
       position: absolute;
       margin-top: -4%;
       left: 0;
       width: 100%;
       height: auto;
     }
-    .main section.page4 h6 {
+    .main section.page3 h6 {
       text-align: right;
       position: absolute;
       bottom: 5%;
@@ -535,7 +535,7 @@ html {
       line-height: 12pt;
       color: rgba(255,255,255,1);
     }
-    .main section.page4 a {
+    .main section.page3 a {
       font-family: 'DINPro', sans-serif;
       font-weight: bold;
       line-height: 12pt;
@@ -717,7 +717,7 @@ html {
       height: auto;
     }
     
-    body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
+    body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page2 .page_container  {
       padding: 20px;
       margin-top: 150px;
       -webkit-box-sizing: border-box;
@@ -753,7 +753,7 @@ html {
       overflow: hidden;
     }
     
-    body.disabled-onepage-scroll .main section.page3 .page_container {
+    body.disabled-onepage-scroll .main section.page2 .page_container {
       width: 90%;
       margin-left: auto;
       margin-right: auto;
